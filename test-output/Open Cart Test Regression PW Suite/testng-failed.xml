@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Open Cart Test Regression PW Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <test thread-count="5" parallel="tests" name="Sauce Labs Login Page Test_chrome(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.SauceDemo.Tests.LoginPageTest">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="verifyTitle"/>
+          <include name="closeBrowser"/>
+          <include name="lockedOutUser"/>
+          <include name="verifyHeader"/>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- com.qa.SauceDemo.Tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Sauce Labs Login Page Test_chrome(failed) -->
+</suite> <!-- Failed suite [Open Cart Test Regression PW Suite] -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SauceDemo Test Regression Suite" thread-count="2"
+	parallel="tests" verbose="4">
+
+	<listeners>
+		<listener
+			class-name="com.qa.SauceDemo.Listeners.ExtentReportListener" />
+
+	</listeners>
+
+	<test name="Sauce Labs Login Page Test">
+
+		<classes>
+			<class name="com.qa.SauceDemo.Tests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="Sauce Labs Inventory Page Test">
+
+		<classes>
+			<class name="com.qa.SauceDemo.Tests.InventoryPageTest" />
+		</classes>
+	</test>
+
+
+</suite>
