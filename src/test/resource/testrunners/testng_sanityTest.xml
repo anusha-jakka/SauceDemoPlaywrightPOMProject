@@ -11,6 +11,8 @@
 	</listeners>
 
 	<test name="Sauce Labs Login Page Test">
+		<parameter name="browser" value="chrome" />
+
 
 		<classes>
 			<class name="com.qa.SauceDemo.Tests.LoginPageTest" />
@@ -19,6 +21,7 @@
 
 	<test name="Sauce Labs Inventory Page Test">
 
+		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.qa.SauceDemo.Tests.InventoryPageTest" />
 		</classes>
