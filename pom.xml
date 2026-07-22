@@ -16,11 +16,11 @@
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- Specify Java source and target levels for the Maven compiler -->
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 		<extentreports-version>5.0.8</extentreports-version>
 		<allure.version>2.35.3</allure.version>
-		
+
 	</properties>
 
 
@@ -50,7 +50,7 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
-		
+
 	</dependencies>
 
 	<build>
@@ -69,43 +69,38 @@
 					<artifactId>maven-resources-plugin</artifactId>
 					<version>3.3.1</version>
 				</plugin>
-				<plugin>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.13.0</version>
-					<configuration>
-						<source>${maven.compiler.source}</source>
-						<target>${maven.compiler.target}</target>
-						<encoding>${project.build.sourceEncoding}</encoding>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.13.0</version>
+				<configuration>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
+					<compilerArgs>
+						<arg>-proc:none</arg>
+					</compilerArgs>
+				</configuration>
+			</plugin>
 
-					</configuration>
-				</plugin>
-				
-				<plugin>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.3.0</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-jar-plugin</artifactId>
-					<version>3.4.2</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-install-plugin</artifactId>
-					<version>3.1.2</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-deploy-plugin</artifactId>
-					<version>3.1.2</version>
-				</plugin>
-				<!-- site lifecycle, see
-				https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
-				<plugin>
-					<artifactId>maven-site-plugin</artifactId>
-					<version>3.12.1</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-project-info-reports-plugin</artifactId>
-					<version>3.6.1</version>
-				</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.3.0</version>
+
+				<configuration>
+					<forkCount>3</forkCount>
+					<reuseForks>true</reuseForks>
+					<argLine>-Xmx1024m</argLine>
+					<suiteXmlFiles>
+						<suiteXmlFile>
+							src/test/resource/testrunners/testng_sanityTest.xml</suiteXmlFile>
+						<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
+
+					</suiteXmlFiles>
+
+
+				</configuration>
+			</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>

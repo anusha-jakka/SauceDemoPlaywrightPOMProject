@@ -1,0 +1,62 @@
+# Maven
+/target/
+*.jar
+*.war
+*.ear
+*.zip
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# IDE
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Build and test outputs
+/build/
+/test-output/
+/Videos/
+/screenshot/
+/Screenshots/
+*.log
+logs/
+
+# Playwright
+/browsers/
+/.playwright/
+/playwright-report/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Generated files
+*.class
+*.ctxt
+.mtj.tmp/
+*.jar
+*.jar.asc
+*.jpi
+*.nbm
+.gradle/
+build/
+.nb-gradle/
+
+# Misc
+Tracing.zip

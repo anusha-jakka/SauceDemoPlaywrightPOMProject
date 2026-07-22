@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="14" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-22T01:26:04 EDT" name="SauceDemo Test Regression Suite" finished-at="2026-07-22T01:26:14 EDT" duration-ms="9693">
+    <groups>
+    </groups>
+    <test started-at="2026-07-22T01:26:04 EDT" name="Sauce Labs Inventory Page Test" finished-at="2026-07-22T01:26:12 EDT" duration-ms="7570">
+      <class name="com.qa.SauceDemo.Tests.InventoryPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.SauceDemo.Tests.InventoryPageTest@1c7696c6]" started-at="2026-07-22T01:26:04 EDT" name="setUp" finished-at="2026-07-22T01:26:11 EDT" duration-ms="6544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddToCart()[pri:1, instance:com.qa.SauceDemo.Tests.InventoryPageTest@1c7696c6]" started-at="2026-07-22T01:26:11 EDT" name="verifyAddToCart" finished-at="2026-07-22T01:26:11 EDT" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method signature="sortByAToZ()[pri:2, instance:com.qa.SauceDemo.Tests.InventoryPageTest@1c7696c6]" started-at="2026-07-22T01:26:11 EDT" name="sortByAToZ" finished-at="2026-07-22T01:26:11 EDT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByAToZ -->
+        <test-method signature="sortByZToA()[pri:3, instance:com.qa.SauceDemo.Tests.InventoryPageTest@1c7696c6]" started-at="2026-07-22T01:26:11 EDT" name="sortByZToA" finished-at="2026-07-22T01:26:11 EDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByZToA -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.SauceDemo.Tests.InventoryPageTest@1c7696c6]" started-at="2026-07-22T01:26:11 EDT" name="closeBrowser" finished-at="2026-07-22T01:26:12 EDT" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.SauceDemo.Tests.InventoryPageTest -->
+    </test> <!-- Sauce Labs Inventory Page Test -->
+    <test started-at="2026-07-22T01:26:04 EDT" name="Sauce Labs Login Page Test" finished-at="2026-07-22T01:26:14 EDT" duration-ms="9693">
+      <class name="com.qa.SauceDemo.Tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:04 EDT" name="setUp" finished-at="2026-07-22T01:26:09 EDT" duration-ms="5438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLogin()[pri:0, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:09 EDT" name="invalidLogin" finished-at="2026-07-22T01:26:10 EDT" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="lockedOutUser()[pri:0, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:10 EDT" name="lockedOutUser" finished-at="2026-07-22T01:26:10 EDT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedOutUser -->
+        <test-method signature="verifyClickLoginOnly()[pri:0, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:10 EDT" name="verifyClickLoginOnly" finished-at="2026-07-22T01:26:10 EDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickLoginOnly -->
+        <test-method signature="verifyHeader()[pri:0, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:10 EDT" name="verifyHeader" finished-at="2026-07-22T01:26:10 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeader -->
+        <test-method signature="verifyOnlyPassword()[pri:0, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:10 EDT" name="verifyOnlyPassword" finished-at="2026-07-22T01:26:10 EDT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnlyPassword -->
+        <test-method signature="verifyOnlyUserName()[pri:0, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:10 EDT" name="verifyOnlyUserName" finished-at="2026-07-22T01:26:10 EDT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnlyUserName -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:10 EDT" name="verifyTitle" finished-at="2026-07-22T01:26:10 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:10 EDT" name="login" data-provider="loginUserData" finished-at="2026-07-22T01:26:11 EDT" duration-ms="1177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:11 EDT" name="login" data-provider="loginUserData" finished-at="2026-07-22T01:26:12 EDT" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:12 EDT" name="login" data-provider="loginUserData" finished-at="2026-07-22T01:26:13 EDT" duration-ms="1039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.SauceDemo.Tests.LoginPageTest@51e69659]" started-at="2026-07-22T01:26:14 EDT" name="closeBrowser" finished-at="2026-07-22T01:26:14 EDT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.SauceDemo.Tests.LoginPageTest -->
+    </test> <!-- Sauce Labs Login Page Test -->
+  </suite> <!-- SauceDemo Test Regression Suite -->
+</testng-results>

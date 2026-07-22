@@ -1,0 +1,6 @@
+com/qa/SauceDemo/Factory/PlaywrightFactory.class
+com/qa/SauceDemo/Constants/LabelConstants.class
+com/qa/SauceDemo/Pages/CartPage.class
+com/qa/SauceDemo/Pages/InventoryPage.class
+com/qa/SauceDemo/Listeners/ExtentReportListener.class
+com/qa/SauceDemo/Pages/LoginPage.class
